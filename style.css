@@ -1,0 +1,260 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.menu {
+  width: 1400px;
+  height: 60px;
+}
+
+.menu-left {
+  float: left;
+  margin-top: 1.3rem;
+  margin-left: 3rem;
+}
+
+.guide-button {
+  padding: 0px 5px;
+  color: white;
+  background-color: #20ad96;
+  border: none;
+  border-radius: 5px;
+  float: right;
+}
+
+.menu-right {
+  display: flex;
+  float: right;
+  margin-right: 3rem;
+  margin-top: 1.3rem;
+}
+.menu-right a {
+  padding: 0.5rem;
+}
+
+/* menu end */
+
+/* liveLife start */
+.liveLife {
+  width: 1440px;
+  height: 703px;
+  top: 60px;
+  background: #faf8f6;
+}
+
+.liveImg1 {
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+.live {
+  display: flex;
+}
+.livePeragrap {
+  width: 545px;
+  height: 396px;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+.firstPara {
+  color: #4a556c;
+  opacity: 0.5;
+}
+.livePeragrap h1 {
+  font-size: 72px;
+  color: #333461;
+}
+.peraButton {
+  background: #20ad96;
+  color: white;
+  border: none;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 4%;
+}
+.liveImg2 {
+  margin-left: 4rem;
+  padding-right: 5px;
+}
+/* liveLife end */
+
+/* 3rd part start */
+.third {
+  width: 1440px;
+  height: 734px;
+  padding-left: 4rem;
+}
+.grid-container1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 1034px;
+  height: 200px;
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 1140px;
+  height: 328px;
+  justify-content: center;
+  padding-top: 3rem;
+}
+.bigText {
+  color: #333461;
+  font-size: 48px;
+  width: 492px;
+  height: 112px;
+}
+.rightPara {
+  width: 468px;
+  height: 200px;
+}
+.coaching p,
+.groupChoching p,
+.consultation p {
+  width: 300px;
+  height: 96px;
+}
+.consultation {
+  padding: 0px 100px;
+}
+
+/* 3rd part end */
+
+@media screen and (max-width: 900px) {
+  .menu {
+    width: 700px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  /* for menu end */
+  .liveLife {
+    width: 700px;
+    height: 430px;
+    background: #faf8f6;
+  }
+
+  .liveImg1 {
+    display: none;
+  }
+  .livePeragrap {
+    height: 250px;
+    width: 350px;
+    margin-left: 20px;
+  }
+  .liveImg2,
+  .liveGirl {
+    margin-top: 6rem;
+  }
+  .liveGirl img {
+    width: 230px;
+    height: 300px;
+  }
+
+  .livePeragrap h1 {
+    font-size: 40px;
+  }
+
+  /* for 2nd para end 900 */
+
+  /* 3rd part start 900 */
+  .third {
+    width: 700px;
+    height: 734px;
+    padding-left: 5px;
+  }
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 700px;
+    height: 200px;
+  }
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 700px;
+    height: 200px;
+    padding-top: 0px;
+  }
+  .bigText {
+    font-size: 30px;
+    width: 300px;
+  }
+  .rightPara {
+    width: 300px;
+    height: 200px;
+  }
+  .consultation {
+    padding: 0px;
+  }
+
+  /* 3rd part end 900*/
+}
+@media screen and (max-width: 600px) {
+  .menu-right {
+    justify-content: center;
+    height: 60px;
+    box-sizing: border-box;
+  }
+  .menu-left,
+  .guide-button {
+    display: none;
+  }
+  /* for menu end */
+
+  .live {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .liveLife {
+    width: 700px;
+    height: 690px;
+    top: 60px;
+    background: #faf8f6;
+  }
+  .livePeragrap {
+    height: 250px;
+    width: 350px;
+  }
+  .liveImg2,
+  .liveGirl {
+    margin-top: 5px;
+  }
+  .liveGirl img {
+    width: 230px;
+    height: 300px;
+    align-items: center;
+    margin-left: 20px;
+  }
+
+  .livePeragrap h1 {
+    font-size: 40px;
+  }
+
+  /* for second para end */
+  /* 3rd part start */
+  .third img {
+    margin-left: 15px;
+  }
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto;
+    width: 350px;
+    height: 300px;
+    padding-left: 15px;
+  }
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto;
+    width: 350px;
+    height: 200px;
+    padding-top: 0px;
+    padding-left: 5px;
+  }
+
+  /* 3rd part end */
+}
