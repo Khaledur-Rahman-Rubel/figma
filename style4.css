@@ -1,0 +1,104 @@
+/* 4th div start rating box */
+.fourDiv {
+  width: 100%;
+  height: 500px;
+  border-width: 0px, 0px, 0px, 0px;
+
+  border-color: #edeff5;
+  padding-left: 6rem;
+}
+.fourDiv h1 {
+  font-size: 48px;
+  color: #333461;
+  width: 530px;
+  height: 112px;
+}
+.fourBody {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 1rem;
+}
+.fourBody article {
+  width: Hug (30px);
+  height: Hug (391px);
+  padding: 40px 0px;
+}
+.fourBody article p {
+  width: 250px;
+  height: 80px;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 2rem;
+}
+
+.fourBody article h4 {
+  text-align: left;
+  padding: 5px 10px;
+}
+.star {
+  color: #ffd700;
+  cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+  .fourDiv {
+    width: 100%;
+    height: 650px;
+    border-width: 0px, 0px, 0px, 0px;
+
+    border-color: #edeff5;
+    padding-left: 3rem;
+  }
+  .fourDiv h1 {
+    font-size: 24px;
+    width: 100%;
+    height: 20px;
+  }
+  .fourBody {
+    grid-template-columns: auto auto;
+  }
+  .fourBody article {
+    padding: 20px 0px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .fourBody {
+    grid-template-columns: auto auto;
+  }
+  .fourDiv h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .fourDiv {
+    height: 800px;
+    padding: 0px 0px;
+  }
+  .fourBody {
+    grid-template-columns: auto;
+  }
+  .fourDiv h1 {
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    text-align: center;
+  }
+  .fourBody article {
+    display: block;
+    width: 100%;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    text-align: center;
+  }
+  .jane1 p,
+  .Catherine p,
+  .jane2 p {
+    margin: auto;
+  }
+  .fourBody article h4 {
+    text-align: center;
+  }
+}

@@ -1,0 +1,46 @@
+.lastDiv {
+  width: 100%;
+  height: 200px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.last1st {
+  margin-top: 3%;
+  margin-left: 7%;
+  width: 80%;
+}
+.last2nd,
+.last3rd {
+  margin: 6% 0px;
+  margin-left: -30%;
+}
+
+.last1st p {
+  font-family: "Kumbh Sans", sans-serif;
+  width: 60%;
+  margin-top: 1rem;
+  opacity: 0.3;
+}
+.last2nd ul li,
+.last3rd ul li {
+  list-style: none;
+  margin: 3% 0px;
+  opacity: 0.5;
+}
+@media screen and (max-width: 561px) {
+  .lastDiv {
+    grid-template-columns: auto;
+    height: 600px;
+  }
+  .last2nd,
+  .last1st,
+  .last3rd {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .last1st p {
+    margin: auto;
+  }
+}

@@ -2,11 +2,10 @@
   margin: 0px;
   padding: 0px;
   text-decoration: none;
-  box-sizing: border-box;
 }
 
 .menu {
-  width: 1400px;
+  width: 100%;
   height: 60px;
 }
 
@@ -39,101 +38,65 @@
 
 /* liveLife start */
 .liveLife {
-  width: 1440px;
-  height: 703px;
+  width: 100%;
+  height: 500px;
   top: 60px;
   background: #faf8f6;
 }
 
 .liveImg1 {
-  padding-top: 2rem;
-  padding-left: 1rem;
+  padding: 20px;
 }
 .live {
   display: flex;
 }
 .livePeragrap {
-  width: 545px;
+  width: 80%;
   height: 396px;
   margin-left: 3rem;
-  margin-top: 3rem;
+}
+.livePara {
+  width: 80%;
+  margin: 1rem 0rem;
 }
 .firstPara {
   color: #4a556c;
   opacity: 0.5;
 }
 .livePeragrap h1 {
-  font-size: 72px;
+  font-size: 60px;
   color: #333461;
+  width: 80%;
+  margin-bottom: 1rem;
 }
 .peraButton {
   background: #20ad96;
   color: white;
   border: none;
   padding: 5px;
-  margin-top: 5px;
-  border-radius: 4%;
+  border-radius: 5px;
 }
-.liveImg2 {
-  margin-left: 4rem;
-  padding-right: 5px;
+#secondDivButton {
+  margin-top: 1rem;
+  font-size: 16px;
+}
+.liveGirl img {
+  width: 100%;
 }
 /* liveLife end */
 
-/* 3rd part start */
-.third {
-  width: 1440px;
-  height: 734px;
-  padding-left: 4rem;
-}
-.grid-container1 {
-  display: grid;
-  grid-template-columns: auto auto;
-  width: 1034px;
-  height: 200px;
-}
-.grid-container2 {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  width: 1140px;
-  height: 328px;
-  justify-content: center;
-  padding-top: 3rem;
-}
-.bigText {
-  color: #333461;
-  font-size: 48px;
-  width: 492px;
-  height: 112px;
-}
-.rightPara {
-  width: 468px;
-  height: 200px;
-}
-.coaching p,
-.groupChoching p,
-.consultation p {
-  width: 300px;
-  height: 96px;
-}
-.consultation {
-  padding: 0px 100px;
-}
-
-/* 3rd part end */
-
 @media screen and (max-width: 900px) {
   .menu {
-    width: 700px;
-    height: 60px;
+    width: 100%;
+    height: 120px;
     display: flex;
     text-align: center;
-    margin-bottom: 10px;
+    justify-content: center;
   }
 
-  /* for menu end */
+  /* for menu end  900*/
   .liveLife {
-    width: 700px;
+    width: 100%;
     height: 430px;
     background: #faf8f6;
   }
@@ -142,123 +105,86 @@
     display: none;
   }
   .livePeragrap {
-    height: 250px;
-    width: 350px;
-    margin-left: 20px;
+    display: block;
   }
-  .liveImg2,
-  .liveGirl {
-    margin-top: 6rem;
-  }
-  .liveGirl img {
-    width: 230px;
-    height: 300px;
+
+  .liveImg2 {
+    display: none;
   }
 
   .livePeragrap h1 {
-    font-size: 40px;
+    font-size: 30px;
+  }
+  .liveGirl img {
+    width: 80%;
   }
 
   /* for 2nd para end 900 */
-
-  /* 3rd part start 900 */
-  .third {
-    width: 700px;
-    height: 734px;
-    padding-left: 5px;
-  }
-  .third img {
-    margin-left: 15px;
-  }
-  .grid-container1 {
-    display: grid;
-    grid-template-columns: auto auto;
-    width: 700px;
-    height: 200px;
-    padding-left: 15px;
-  }
-  .grid-container2 {
-    display: grid;
-    grid-template-columns: auto auto;
-    width: 700px;
-    height: 200px;
-    padding-top: 0px;
-  }
-  .bigText {
-    font-size: 30px;
-    width: 300px;
-  }
-  .rightPara {
-    width: 300px;
-    height: 200px;
-  }
-  .consultation {
+}
+@media screen and (max-width: 735px) {
+  .menu {
+    height: 95px;
+    width: 100%;
+    margin: 0px;
     padding: 0px;
   }
-
-  /* 3rd part end 900*/
-}
-@media screen and (max-width: 600px) {
-  .menu-right {
-    justify-content: center;
-    height: 60px;
-    box-sizing: border-box;
+  .menu-left {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
-  .menu-left,
+
+  .menu-right {
+    display: block;
+
+    padding: 0px;
+    margin: auto;
+    float: none;
+    text-align: center;
+  }
   .guide-button {
     display: none;
   }
-  /* for menu end */
+
+  /* for menu end 600*/
 
   .live {
     flex-direction: column;
     justify-content: center;
   }
   .liveLife {
-    width: 700px;
-    height: 690px;
-    top: 60px;
+    width: 100%;
+    height: 750px;
     background: #faf8f6;
   }
   .livePeragrap {
-    height: 250px;
-    width: 350px;
+    height: 200px;
+    width: 100%;
+    padding-right: 20px;
+    text-align: center;
+    box-sizing: border-box;
   }
-  .liveImg2,
-  .liveGirl {
-    margin-top: 5px;
+  .peraButton {
+    margin-right: 15%;
+  }
+  .liveImg2 {
+    display: none;
   }
   .liveGirl img {
-    width: 230px;
-    height: 300px;
-    align-items: center;
-    margin-left: 20px;
+    display: block;
+    width: 50%;
+    margin: auto;
+
+    margin-top: 2.5rem;
   }
 
   .livePeragrap h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   /* for second para end */
-  /* 3rd part start */
-  .third img {
-    margin-left: 15px;
-  }
-  .grid-container1 {
-    display: grid;
-    grid-template-columns: auto;
-    width: 350px;
-    height: 300px;
-    padding-left: 15px;
-  }
-  .grid-container2 {
-    display: grid;
-    grid-template-columns: auto;
-    width: 350px;
-    height: 200px;
-    padding-top: 0px;
-    padding-left: 5px;
-  }
-
-  /* 3rd part end */
 }

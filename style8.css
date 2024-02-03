@@ -1,0 +1,65 @@
+.eightGetNotified {
+  background: #faf8f6;
+  width: 100%;
+  height: 150px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.eightPara {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+.eightPara p {
+  font-family: "Kumbh Sans", sans-serif;
+}
+.eightPara header {
+  color: #333461;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+.eightForm {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.eightForm input {
+  padding: 7px;
+}
+.eightForm button {
+  color: white;
+  padding: 7px 2rem;
+  border: none;
+  border-radius: 5px;
+  background: #20ad96;
+}
+@media screen and (max-width: 1220px) {
+  .eightForm button {
+    margin-top: 10px;
+    margin-left: 12%;
+  }
+  .eightPara header {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 967px) {
+  .eightPara header {
+    font-size: 20px;
+  }
+  .eightPara p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 748px) {
+  .eightGetNotified {
+    grid-template-columns: auto;
+    height: 200px;
+  }
+  .eightForm button {
+    margin-right: 2rem;
+  }
+  .eightPara header {
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,112 @@
+/* 3rd part start */
+.third {
+  width: 100%;
+  height: 500px;
+  padding-left: 4rem;
+}
+.grid-container1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+  height: 200px;
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  height: 328px;
+  justify-content: center;
+  padding-top: 3rem;
+}
+.bigText {
+  color: #333461;
+  font-size: 48px;
+  width: 80%;
+  height: 112px;
+}
+.rightPara {
+  width: 80%;
+  height: 200px;
+  text-align: center;
+}
+.coaching p,
+.groupChoching p,
+.consultation p {
+  width: 90%;
+  height: 96px;
+}
+.consultation {
+  padding: 0px 50px;
+}
+
+/* 3rd part end */
+@media screen and (max-width: 1100px) {
+  .third {
+    height: 450px;
+    margin: auto;
+  }
+  .third img {
+    display: none;
+  }
+  .grid-container1 {
+    grid-template-columns: auto auto;
+    height: 150px;
+    margin: auto;
+  }
+  .grid-container2 {
+    grid-template-columns: auto auto;
+
+    height: 120px;
+  }
+  .bigText {
+    font-size: 30px;
+    width: 300px;
+  }
+  .rightPara {
+    width: 300px;
+    height: 200px;
+  }
+  .consultation {
+    padding: 0px;
+  }
+
+  /* 3rd part end 900*/
+}
+@media screen and (max-width: 600px) {
+  /* 3rd part start */
+  .third {
+    height: 600px;
+    padding-left: 4rem;
+    box-sizing: border-box;
+  }
+  .third img {
+    display: none;
+  }
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    height: 250px;
+  }
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    height: 200px;
+    padding-top: 0px;
+  }
+  .bigText {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 0px 0px;
+  }
+  .rightPara {
+    display: block;
+    width: 95%;
+    text-align: center;
+  }
+
+  /* 3rd part end */
+}
