@@ -188,3 +188,24 @@
 
   /* for second para end */
 }
+@media screen and (max-width: 530px) {
+  .liveLife {
+    height: 600px;
+  }
+  .firstPara {
+    margin-left: -5rem;
+  }
+}
+@media screen and (max-width: 484px) {
+  .liveGirl img {
+    margin-top: 20%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .liveLife {
+    height: 530px;
+  }
+  .liveGirl img {
+    margin-top: 30%;
+  }
+}

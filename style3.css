@@ -110,3 +110,18 @@
 
   /* 3rd part end */
 }
+@media screen and (max-width: 500px) {
+  .third {
+    height: 750px;
+  }
+  .grid-container1 {
+    height: 350px;
+  }
+  .grid-container2 {
+    height: 250px;
+  }
+  .bigText {
+    font-size: 22px;
+    height: 60px;
+  }
+}
