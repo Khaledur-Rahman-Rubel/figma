@@ -112,4 +112,7 @@
   .fourBody article {
     height: 280px;
   }
+  .fourBody article p {
+    margin-bottom: 3rem;
+  }
 }
